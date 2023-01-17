@@ -27,6 +27,11 @@
     <Folder Include="Widgets\Json\" />
   </ItemGroup>
 
+  
+  <ItemGroup>
+    <PackageReference Update="Roslynator.Analyzers" Version="4.2.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <DefineConstants>$(DefineConstants)TRACE;WCWIDTH_VISIBILITY_INTERNAL</DefineConstants>
   </PropertyGroup>
