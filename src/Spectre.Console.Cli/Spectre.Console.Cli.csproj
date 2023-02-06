@@ -17,4 +17,9 @@
     <InternalsVisibleTo Include="Spectre.Console.Cli.Tests" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="MinVer" Version="4.3.0" />
+    <PackageReference Update="Roslynator.Analyzers" Version="4.2.0" />
+  </ItemGroup>
+
 </Project>
